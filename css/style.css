@@ -1,0 +1,34 @@
+html,body,header, #intro{
+    height: 100%;
+}
+#intro{
+    background: url(../img/salt-harvesting-_1920.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#examples{
+
+}
+
+.top-nav-collapse{
+    background-color: #24355c;
+} 
+@media (max-width: 768px){
+    .navbar:not(.top-nav-collapse){
+    background: #24355c;
+    }
+}
+
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
